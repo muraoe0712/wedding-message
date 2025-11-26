@@ -37,10 +37,15 @@ html, body {
 /* 教会画像（上） */
 .top-image {
   width: 120px;
-  opacity: 0.9;
   margin: 0 auto 16px;
   display: block;
+  padding: 8px;                    /* 画像の周りに余白 */
+  background-color: #ffffff;       /* 白背景 */
+  border-radius: 9999px;           /* まん丸にする */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* ふんわり影 */
 }
+
+
 
 /* THANK YOU FOR COMING */
 .label {
@@ -78,4 +83,17 @@ html, body {
 /* エラー表示用 */
 .error {
   color: #b85c5c;
+}
+
+/* 下の葉っぱを小さく中央に */
+.card-bottom-illustration {
+  width: 72px;
+  margin: 40px auto 8px;
+  opacity: 0.9;
+}
+
+.card-bottom-illustration svg {
+  width: 100%;
+  height: auto;
+  display: block;
 }
