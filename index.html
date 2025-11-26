@@ -10,20 +10,31 @@
   <main class="page">
     <section class="card">
 
-      <!-- 教会画像 -->
+      <!-- 上：教会イラスト -->
       <img src="church.png" alt="church" class="top-image" />
 
+      <!-- ラベル -->
       <p class="label">THANK YOU FOR COMING</p>
 
+      <!-- 名前 -->
       <h1 id="guest-name" class="guest-name">ゲスト様へ</h1>
 
+      <!-- メッセージ本文 -->
       <p id="message" class="message-body">
         メッセージを読み込んでいます…
       </p>
 
-      <!-- 下にもワンポイントで同じ画像を小さく -->
-      <img src="church.png" alt="church" class="bottom-image" />
+      <!-- 下：葉っぱの線画（前のやつに戻す） -->
+      <div class="card-bottom-illustration" aria-hidden="true">
+        <svg viewBox="0 0 80 80" fill="none" stroke="#9AA7A0" stroke-width="1.2">
+          <path d="M50 10 C70 30, 70 50, 50 70" />
+          <circle cx="60" cy="30" r="4" />
+          <circle cx="64" cy="45" r="3.5" />
+          <circle cx="58" cy="60" r="4" />
+        </svg>
+      </div>
 
+      <!-- 日付 -->
       <p class="date">2026.03.28</p>
 
     </section>
